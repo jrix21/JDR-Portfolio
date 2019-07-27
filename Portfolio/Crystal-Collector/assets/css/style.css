@@ -1,0 +1,96 @@
+body{
+	background-image: url("rswallpaper.jpg");
+	width:100%;
+	margin: auto;
+
+}
+
+h1{
+	padding:50px;
+	margin:20px;
+	color: white;
+	text-align:center;
+}
+
+.rulescontainer{
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 500px;
+	background-color: whitesmoke;
+	opacity: .7;
+	padding: 10px;
+}
+
+.jewelcontainer{
+	background-color: black;
+	opacity: .7;
+	width:500px;
+	height:125px;
+	padding:auto;
+	margin:auto;
+	margin-top:10px;
+	clear:both;
+
+
+}
+
+.jewel{
+	background-color: transparent;
+	border: none;
+}
+
+.jewels1{
+	float:left;
+
+}
+
+.jewels2{	
+	float:left;
+	
+}
+
+.jewels3{
+	float:left;
+
+}
+
+.jewels4{
+	float:left;
+
+}
+
+
+.randomContainer{
+	color: white;
+	text-align: center;
+	font-size:x-large;
+	font-weight: bold;
+	border: solid white;
+	padding-bottom: 10px;
+
+}
+
+.scorecontainer{
+	text-align: center;
+	color: white;
+	font-size:x-large;
+	font-weight: bold;
+	border: solid white;
+	padding-bottom: 10px;
+}
+
+.wandlcontainer{
+	text-align: center;
+	color: white;
+	font-size:x-large;
+	font-weight: bold;
+	border: solid white;
+}
+
+.statContainer {
+	margin: auto;
+	width: 500px;
+	background-color:black;
+	opacity: .7;
+}

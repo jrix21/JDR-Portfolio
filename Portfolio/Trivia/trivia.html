@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Trivia Game</title>
+  <!-- JavaScript file -->
+
+  <!-- reset browser defaults -->
+  <link rel="stylesheet" type="text/css" href="../Trivia/assets/css/style.css"/>
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="../../index.html" class="brand-logo">Jacob D. Rix</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../portfolio.html">Portfolio</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../portfolio.html">Portfolio</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Entire page row -->
+  <main>
+  <div id="gameBoard" class="container">
+    <!-- Entire page col -->
+    <div class="col-6">
+
+      <!-- header box row -->
+      <header id="gameTitle" class="row">
+        <div class="overlay">
+          <div id="titleBox" class="col-4 text-align center">
+            <h1>One Piece Trivia</h1>
+          </div>
+        </div>
+      </header>
+      <!-- Q&A will be displayed below -->
+      <article id="gameFeed" class="row">
+        <!-- questions section -->
+        <section id="questions" class="col-6">
+        </section>
+        <!-- answer choices section -->
+        <section id="answers" class="col-6">
+          <div id="buttonBox" class="col-6">
+          </div>
+
+        </section>
+      </article>
+    </div>
+  </div>
+  </main>
+  <footer class="page-footer light-blue ">
+      <div class="row">
+        <div class="col s12 m4 text-align center">
+          <p>Life Before Death</p></div>
+        <div class="col s12 m4 text-align center">
+           <p>Strength Before Weakness</p></div>
+        <div class="col s12 m4 text-align center">
+            <p>Journey Before Destination</p></div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container text-align center ">
+      <p id="signature">Made by Jacob D. Rix</p>
+      </div>
+    </div>
+  </footer>
+  
+<script src="../Trivia/assets/javascript/game.js"></script>
+
+</body>
+</html>

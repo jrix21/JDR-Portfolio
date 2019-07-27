@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OnePiece Hangman</title>
+	<link rel="stylesheet" type="text/css" href="../HangManGame/Assets/CSS/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body background="Assets/Images/onepiece.jpg">
+	<nav class="light-blue lighten-1" role="navigation">
+		<div class="nav-wrapper container"><a id="logo-container" href="../../index.html" class="brand-logo">Jacob D. Rix</a>
+			<ul class="right hide-on-med-and-down">
+			<li><a href="../../about.html">About</a></li>
+			<li><a href="../../contact.html">Contact</a></li>
+			<li><a href="../../portfolio.html">Portfolio</a></li>
+			</ul>
+	
+			<ul id="nav-mobile" class="sidenav">
+			<li><a href="../../about.html">About</a></li>
+			<li><a href="../../contact.html">Contact</a></li>
+			<li><a href="../../portfolio.html">Portfolio</a></li>
+			</ul>
+			<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+<main>
+<div style="display:none">
+</div>
+	<div class="container">
+		<h1>One Piece Hangman Game</h1>
+	</div>
+
+    <!--Image Changing Area-->
+<div class=interactivecontainer>
+	<div id="imagecontainer">
+		<img id="screenshot">
+	</div>	
+</div>
+
+<div class="playcontainer">
+	<!--word box for word to be guessed-->
+	<div>
+		<div class="chancescontainer">
+			<p> You have <span id="lives"></span> chances left</p>
+		</div>
+	</div>
+	<!--lines for guessing letters-->
+	<div>
+		<div class="guessingcontainer">
+			<p id="underlines"></p>
+			<p id="wrongletters"></p>
+			<p> Wins: <span id="wins"></span></p>
+			<p> Losses: <span id="losses"></span></p>
+		</div>
+	</div>
+</div>
+</main>
+
+<footer class="page-footer light-blue ">
+	<div class="row">
+		<div class="col s12 m4 text-align center">
+		<p>Life Before Death</p></div>
+		<div class="col s12 m4 text-align center">
+			<p>Strength Before Weakness</p></div>
+		<div class="col s12 m4 text-align center">
+			<p>Journey Before Destination</p></div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container text-align center ">
+		<p id="signature">Made by Jacob D. Rix</p>
+		</div>
+	</div>
+</footer>
+	
+
+
+<script type='text/javascript' src="../HangManGame/Assets/Javascript/game.js"></script>
+</body>
+</html>
