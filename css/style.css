@@ -8,6 +8,12 @@
 
 .icon-block {
   padding: 0 15px;
+  background-color: white;
+  opacity: .7;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
@@ -26,4 +32,31 @@ main {
 }
 #portContent{
   margin-top: 20px;
+}
+video{
+  width:100%;
+}
+.ParallaxVideo{ 
+    height: 800px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+    max-width: 70%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+}
+.ParallaxVideo h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+#par-text{
+  background-color: white;
+  opacity: .7;
+  padding: 20px;
 }
